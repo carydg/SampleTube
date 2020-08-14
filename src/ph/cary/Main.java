@@ -8,7 +8,7 @@ public class Main {
         video.setTitle("Kurt's Guitar Collections");
         video.setUser(new User("kurt@icloud.com"));
 
-        var processor = new VideoProcessor();
+        var processor = new VideoProcessor(new VideoEncoder(), new VideoDatabase(), new EmailService());
         processor.process(video);
     }
 }

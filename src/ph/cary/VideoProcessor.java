@@ -1,14 +1,21 @@
 package ph.cary;
 
 public class VideoProcessor {
+    private Encoder encoder;
+    private Database database;
+    private Services services;
+
+    public VideoProcessor(Encoder encoder, Database database, Services services) {
+        this.encoder = encoder;
+        this.database = database;
+        this.services = services;
+    }
+
     public void process(Video video) {
-        var encoder = new VideoEncoder();
         encoder.encode(video);
 
-        var database = new VideoDatabase();
         database.store(video);
 
-        var email = new EmailService();
-        email.sendEmail(video);
+        services.sendEmail(video);
     }
 }
