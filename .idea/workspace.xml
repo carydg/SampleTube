@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,5 +54,23 @@
       <updated>1597351353867</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1286" height="171" key="GridCell.Tab.0.bottom" timestamp="1597379780346">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="171" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1597379780346" />
+    <state width="1286" height="171" key="GridCell.Tab.0.center" timestamp="1597379780346">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="171" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1597379780346" />
+    <state width="1286" height="171" key="GridCell.Tab.0.left" timestamp="1597379780346">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="171" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1597379780346" />
+    <state width="1286" height="171" key="GridCell.Tab.0.right" timestamp="1597379780346">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1286" height="171" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1597379780346" />
   </component>
 </project>
